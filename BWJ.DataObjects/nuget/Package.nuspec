@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package>
+  <metadata>
+    <id>BWJ.DataObjects.StalwartVM</id>
+    <title>StalwartVM</title>
+    <version>1.0.0</version>
+    <authors>Byron W Jones</authors>
+    <owners>Byron W Jones</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <projectUrl>https://github.com/byronwjones/stalwart-vm</projectUrl>
+    <repository type="git" url="https://github.com/byronwjones/stalwart-vm.git" branch="master" commit="3e3bdcb2083a9da43a69821195924daca2ea112c" />
+    <description>View model base objects that provide a very simple pattern for implementation of INotifyPropertyChanged</description>
+    <summary>View model base objects that provide a very simple pattern for implementation of INotifyPropertyChanged</summary>
+    <releaseNotes>Initial Release.</releaseNotes>
+    <copyright>Copyright 2020 Byron W Jones LLC</copyright>
+    <tags>View-Model INotifyPropertyChanged Data-Bind Wpf</tags>
+    <dependencies>
+      <group targetFramework=".NETFramework4.5">
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="..\BWJ.DataObjects\bin\Release\**" target="lib\net45" />
+    <file src="readme.txt" target="" />
+  </files>
+</package>
